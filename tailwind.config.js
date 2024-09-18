@@ -22,14 +22,18 @@ module.exports = {
         "TertiaryBlue":"#18457C",
         "transparent":"#2A2C2F",
         "SecondaryDark":"#424345",
+        "low_white":"#D8D8D8",
+        "signup":"#46474C",
+        "p1":"#B9B9B9"
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'], 
       },  
     },
     fontSize:{
-      "H1":"120px",
-      "P1":"22px"
+      "ead":"120px",
+      "Para":"22px",
+      "UI":"18px",
     }
   },
   plugins: [],
