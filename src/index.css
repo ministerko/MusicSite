@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import '@fontsource/inter/index.css';
+
+
+/* src/index.css */
+.text-headcolor {
+  background-image: linear-gradient(to bottom, #ffff, #ffffff69); /* Example gradient */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* Hide scrollbar for Webkit browsers (Chrome, Safari) */
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.no-scroll-bar {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;     /* Firefox */
+}
+
